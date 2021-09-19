@@ -1,0 +1,145 @@
+/*Mobile & Tablet */
+@media (max-width: 1023px){
+    .header__PC{
+        display: none !important;
+    }
+
+    .header{
+        height: 70px;
+        background-color: var(--blue-color);
+        
+    }
+
+    .header__mobile-tablet{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        align-items: center;
+    }
+
+    .header__logo_mobile{
+        width: 113px;
+        height: 36px;
+        object-fit: cover;
+    }
+
+    .header__menu{
+        font-size: 34px;
+        color: white;
+        outline: none;
+    }
+
+    .header__user-manager{
+        color: white;
+        font-size: 34px;
+        outline: none;
+    }
+
+
+
+    .container{
+        margin-top: 70px;
+    }
+
+    .container-img__top{
+        height: 650px;
+    }
+    .container-img__review-user-content{
+        text-align: center;
+    }
+    .container-img__review-user{
+        display: block;
+    }
+
+    
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .hidden__tablet{
+        display: none;
+    }
+    .container-img__review {
+        height: 830px;
+    }
+    
+
+    .container-img__review-user-photo{
+        width: 107px;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    
+    .container__location-img{
+        padding: 14px;
+    }
+    .container-img__top-heading{
+        font-size: 8.2rem;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    .hidden__mobile{
+        display: none;
+    }
+    .container-img__top-sub-heading{
+        font-size: 3.4rem;
+        line-height: 2rem;
+    }
+
+    .container-img__top-heading{
+        font-size: 4rem;
+        line-height: 7rem;
+    }
+    .container-white__sub-heading{
+        font-size: 3.4rem;
+        line-height: 4rem;
+    }
+    .container-map__content{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .container-white__heading{
+        font-size: 3.5rem;
+    }
+    .col-video {
+        display: flex;
+        justify-content: center;
+    }
+    .container-white__text{
+        width: 100%;
+    }
+    .container-img__review{
+        height: 100%;
+    }
+    .container-img__review-heading{
+        font-size: 4rem;
+    }
+    .container-img__review-text{
+        font-size: 1.7rem;
+    }
+    .container-img__review-user-photo{
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+    
+    .container-white__text-winter-holiday {
+        font-size: 1.7rem;
+        line-height: 2.8rem;
+    }
+    .container-custom-item{
+        margin-bottom: 48px;
+    }
+    .container-custom-item-description{
+        width: 100%;
+    }
+    .footer {
+        padding: 106px 40px 78px;
+    }
+    .footer-heading{
+        margin-top: 20px;
+        margin-bottom: 16px;
+    }
+}
