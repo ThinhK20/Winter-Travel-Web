@@ -197,7 +197,7 @@
 }
 
 .container-img__top{
-    background-image: url("./assests/img/img-2.jpg");
+    background-image: url("../img/img-2.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -408,7 +408,7 @@
 }
 
 .container-img__review{
-    background-image: url("./assests/img/img-2.jpg");
+    background-image: url("../img/img-2.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -577,17 +577,17 @@
 }
 
 .container-user-select-1{
-    background-image: url("./assests/img/our-team-img-6-1.jpg");
+    background-image: url("../img/our-team-img-6-1.jpg");
 }
 
 .container-user-select-2{
-    background-image: url("./assests/img/our-team-img-7-1.jpg");
+    background-image: url("../img/our-team-img-7-1.jpg");
 }
 .container-user-select-3{
-    background-image: url("./assests/img/our-team-img-8-1.jpg");
+    background-image: url("../img/our-team-img-8-1.jpg");
 }
 .container-user-select-4{
-    background-image: url("./assests/img/our-team-img-9.jpg");
+    background-image: url("../img/our-team-img-9.jpg");
 }
 
 .container-user-content{
